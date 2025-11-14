@@ -1,29 +1,33 @@
+# OpenTC4
 
-Installation information
-=======
+**OpenTC4** is a unofficial yet faithful reimplementation and reimagination of **Azanor's Thaumcraft 4**
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+---
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Features (Planned)
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+- Full reimplementation of all features.
+- Addons..? (reimplementing api or remaking addons)
 
-Mapping Names:
-============
-The MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+---
 
-MDG Legacy:
-==========
-This template uses [ModDevGradle Legacy](https://github.com/neoforged/ModDevGradle). Documentation can be found [here](https://github.com/neoforged/ModDevGradle/blob/main/LEGACY.md).
+## Development Status
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Non-functional development period. Builds are configured for development environments only.
+
+We are looking for contributors! [Pull requests](https://github.com/opentc4/opentc4-modern/pulls) are welcome.
+
+---
+
+## How to Build
+
+Run "gradlew build", then find the jar file in build/libs. It's the one without dev, api, or sources.
+
+---
+
+## License & Legal
+
+OpenTC4 is released under the MIT license. All code and assets are original creations.
+
+**Disclaimer**:
+This project is not affiliated with, endorsed by, or derived from Thaumcraft or Azanor. It is an independent reimplementation inspired by Thaumcraft 4, with no reused code or assets.
